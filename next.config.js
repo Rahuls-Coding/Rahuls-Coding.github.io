@@ -6,8 +6,8 @@ const nextConfig = {
     path: "",
   },
 
-  basePath: '/nextjs-pages',
-  assetPrefix: '/nextjs-pages/', 
+  basePath: '/site',
+  assetPrefix: '/site/', 
 
 }
 
