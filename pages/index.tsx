@@ -213,7 +213,6 @@ function Footer() {
       <div className={styles.footerText}>
         Tinkered by{' '}
         <a href="https://github.com/Rahuls-Coding" target="_blank" rel="noopener noreferrer">
-          <img src='/rahul.png' alt="Rahul Image" />
           Rahul
         </a>{' '}
       </div>
