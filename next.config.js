@@ -7,7 +7,7 @@ const nextConfig = {
   },
 
   basePath: '/site',
-  assetPrefix: '/site/', 
+  assetPrefix: '/site', 
 
 }
 
