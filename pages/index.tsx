@@ -213,7 +213,7 @@ function Footer() {
       <div className={styles.footerText}>
         Tinkered by{' '}
         <a href="https://github.com/Rahuls-Coding" target="_blank" rel="noopener noreferrer">
-          <img src={`${process.env.NEXT_PUBLIC_IMG}/rahul.png`} alt="Rahul Image" />
+          <img src='/rahul.png' alt="Rahul Image" />
           Rahul
         </a>{' '}
       </div>
