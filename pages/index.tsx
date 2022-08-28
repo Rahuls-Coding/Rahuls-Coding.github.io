@@ -11,6 +11,7 @@ import {
   LinkedinIcon,
   ProjectInfo,
   Making,
+  Contactme,
 } from 'components'
 
 
