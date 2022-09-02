@@ -74,7 +74,6 @@ export default function Index() {
 
 
         </div>
-        <Footer />
       </main>
     </>
   )
@@ -203,21 +202,4 @@ function ThemeSwitcher() {
 
 
 
-function Footer() {
-  const ref = React.useRef<HTMLElement | null>(null)
-  const isInView = useInView(ref, {
-    once: true,
-    margin: '100px',
-  })
-  return (
-    <footer ref={ref} className={styles.footer} data-animate={isInView}>
-      <div className={styles.footerText}>
-        Tinkered by{' '}
-        <a href="https://github.com/Rahuls-Coding" target="_blank" rel="noopener noreferrer">
-          Rahul
-        </a>{' '}
-      </div>
-    </footer>
-  )
-}
 
