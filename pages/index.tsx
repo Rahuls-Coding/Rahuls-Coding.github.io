@@ -127,7 +127,7 @@ function TwitterButton() {
 function LinkedinButton() {
   return (
     <a
-      href="https://www.linkedin.com/in/rahul-r-0549a4246/"
+      href="https://www.linkedin.com/in/rahulscoding/"
       target="_blank"
       rel="noopener noreferrer"
       className={styles.linkedinButton}

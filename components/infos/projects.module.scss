@@ -3,21 +3,32 @@
 }
 
 .glass {
-    background-color: #575757; 
+    background-color: #ffffff; 
     opacity: 0.5;
-    color: white; 
+    color: black; 
     width: 100%; 
     border-style: none; 
     outline: 0; 
     margin-top: 20px;
     padding: 10px;
+    padding-top: 15px;
     margin-bottom: 10px;
-    border-radius: 9999px;
-    display: flex; 
-    align-items: center; 
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
+    border-radius: 20px;
 }
 
+.hidecontent {
+  padding-left:20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+
+.alignthings {
+  display: flex; 
+  align-items: center; 
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
+}
 .icons{
     display: flex; 
     justify-content: flex-end; 
@@ -56,3 +67,4 @@
     outline: 2px solid var(--gray7);
   }
 }
+
