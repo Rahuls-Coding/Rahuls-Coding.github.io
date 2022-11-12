@@ -2,7 +2,7 @@
 
 This is my personal website! It's made with SCSS, Next.js, and Typescript. 
 
-## Gudie
+## Guide
 
 This is project is hosted using Namecheap and Github Pages. In start editing the app and publishing it follow the steps below: 
 
@@ -10,7 +10,7 @@ This is project is hosted using Namecheap and Github Pages. In start editing the
 2. Customize the web to your liking
 3. Run the following to export into gh-pages
 ```
-    npm run build && npm run export
+npm run build && npm run export
 ```
 4. Commit and push to the repostiry and your done!
 
