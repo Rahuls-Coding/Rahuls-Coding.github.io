@@ -32,7 +32,12 @@ export default function Index() {
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.meta}>
+
+
             <div className={styles.info}>
+            {/* <img className={styles.pfp}  >
+              
+            </img>  */}
 
               <h1>Hey! I&#39;m Rahul</h1>
               <p>High school student who&#39;s learning about the blockchain.</p>
