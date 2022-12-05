@@ -5,6 +5,7 @@ import { GitHubIcon, LinkIcon } from '../icons/index'
 export function ProjectInfo() {
   return (
     <div className={styles.main}>
+        These are my more popular and bigger projects I've built. But you can see my many other projects at my github account. 
         <div className={styles.glass}>
             <div className={styles.alignthings}>
                 <div className={styles.text}>

@@ -113,11 +113,13 @@
 
 .githubButton,
 .twitterButton,
-.linkedinButton {
+.linkedinButton,
+.mailButton {
   width: 30px;
   padding-left: 8px;
   display: inline-flex;
   align-items: center;
+  border-radius: 9999px;
   gap: 8px;
   font-weight: 500;
 
@@ -134,6 +136,11 @@
     outline: 0;
     outline: 2px solid var(--gray7);
   }
+}
+
+.mailicon {
+  width: 16px;
+  height: 16px;
 }
 
 // .installButton {
@@ -189,7 +196,7 @@
 
 .switcher {
   display: grid;
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(3, 100px);
   align-items: center;
   justify-content: center;
   gap: 4px;

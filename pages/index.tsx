@@ -11,8 +11,8 @@ import {
   LinkedinIcon,
   SkillsInfo,
   ProjectInfo,
-  Making,
-  Contactme,
+  MailIcon,
+  About,
 } from 'components'
 
 
@@ -21,12 +21,12 @@ type TTheme = {
   setTheme: Function
 }
 
-type Themes = 'Projects' | 'Skills' | 'Contact' | 'About'
+type Themes = 'About' | 'Projects' | 'Skills' 
 
 const ThemeContext = React.createContext<TTheme>({} as TTheme)
 
 export default function Index() {
-  const [theme, setTheme] = React.useState<Themes>('Projects')
+  const [theme, setTheme] = React.useState<Themes>('About')
 
   return (
     <>
@@ -46,6 +46,7 @@ export default function Index() {
               <GitHubButton />
               <TwitterButton/>
               <LinkedinButton/>
+              <MailButton/>
             </div>
           </div>
 
@@ -54,6 +55,11 @@ export default function Index() {
           </ThemeContext.Provider>
           
           <AnimatePresence exitBeforeEnter initial={false}>
+            {theme === 'About' && (
+              <Wrapper key="About">
+                <About/>
+              </Wrapper>
+            )}
             {theme === 'Projects' && (
               <Wrapper key="Projects">
                 <ProjectInfo />
@@ -64,18 +70,7 @@ export default function Index() {
                 <SkillsInfo/>
               </Wrapper>
             )}
-            {theme === 'Contact' && (
-              <Wrapper key="Contact">
-                <Making/>
-              </Wrapper>
-            )}
-            {theme === 'About' && (
-              <Wrapper key="About">
-                <Making/>
-              </Wrapper>
-            )}
           </AnimatePresence>
-
 
         </div>
       </main>
@@ -141,9 +136,25 @@ function LinkedinButton() {
     </a>
   )
 }
+function MailButton() {
+  return (
+    <a
+      href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulscoding1@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.mailButton}
+    >
+      <img src='https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg' className={styles.mailicon}/>
+    </a>
+  )
+}
 
 
 const themes = [
+  {
+    icon: <ContactIcon />,
+    key: 'About',
+  },
   {
     icon: <FileIcon />,
     key: 'Projects',
@@ -151,14 +162,6 @@ const themes = [
   {
     icon: <ToolsIcon />,
     key: 'Skills',
-  },
-  {
-    icon: <FormIcon />,
-    key: 'Contact',
-  },
-  {
-    icon: <ContactIcon />,
-    key: 'About',
   },
 ]
 

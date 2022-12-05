@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './skills.module.scss'
-import { RustIcon, SolidIcon  } from '../icons/index'
+import { RustIcon, SolidIcon, LinkIcon  } from '../icons/index'
 
 
 export function SkillsInfo() {
@@ -25,11 +25,34 @@ export function SkillsInfo() {
             </div>
         </div>
         <div>
-        Note, if you want to about everything I know, download my CV below. 
+          Note, if you want to know about all the skills I have, download my CV below. 
+        </div>
+        <div>
+          <div className={styles.glass}>
+            <div className={styles.alignthings}>
+                <div className={styles.text}>
+                Rahul Rajkumar Résumé
+                </div>
+                <div className={styles.icons}>
+                    <LinkButton />
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 
   )
 }
 
-
+function LinkButton () {
+  return (
+      <a
+      href='/Rahul_Rajkumar_Resume.pdf'
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.linkButton}
+      >
+          <LinkIcon />
+      </a>
+  )
+}
