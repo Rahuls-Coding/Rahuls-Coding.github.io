@@ -13,5 +13,8 @@ This is project is hosted using Namecheap and Github Pages. To start editing and
 npm run build && npm run export
 ```
 4. Commit and push to the repository and your done!
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c1076b (fixed small typo)
 
