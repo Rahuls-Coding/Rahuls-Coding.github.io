@@ -12,6 +12,6 @@ This is project is hosted using Namecheap and Github Pages. To start editing and
 ```
 npm run build && npm run export
 ```
-4. Commit and push to the repostiry and your done!
+4. Commit and push to the repository and your done!
 
 
