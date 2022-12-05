@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 
 .main {
   width: 100vw;
@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   padding: 120px 24px 160px 24px;
-  font-family: 'Manrope', sans-serif;
+  //font-family: 'Manrope', sans-serif;
 
   &:before {
     background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, var(--gray1) 100%);
