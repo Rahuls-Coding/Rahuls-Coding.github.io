@@ -6,7 +6,7 @@ export function About() {
   return (
     <div className={styles.main}>
         <div>
-            Hello! 👋 My name is Rahul Rajkumar. I'm currently an high school junior at North Staracademy. 
+            Hello! 👋 My name is Rahul Rajkumar. I'm currently an high school junior at Northstar Academy. 
             I fell in love with coding ever since middle school, that's when I first started learning about programming, specificlly about the pandas library 📔 in Python. 
             Now I'm currently learning about Blockchain technologies such as Ethereum smart contracts, Solana programs, and etc. 
         </div>
