@@ -4,7 +4,7 @@ This is my personal website! It's made with SCSS, Next.js, and Typescript.
 
 ## Guide
 
-This is project is hosted using Namecheap and Github Pages. In start editing the app and publishing it follow the steps below: 
+This is project is hosted using Namecheap and Github Pages. To start editing and publishing the site, follow the instructions below: 
 
 1. Edit the file `CNAME` to change the domain name
 2. Customize the web to your liking
