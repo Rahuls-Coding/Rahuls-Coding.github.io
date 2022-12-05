@@ -9,6 +9,7 @@ import {
   GitHubIcon,
   TwitterIcon,
   LinkedinIcon,
+  SkillsInfo,
   ProjectInfo,
   Making,
   Contactme,
@@ -35,10 +36,8 @@ export default function Index() {
 
 
             <div className={styles.info}>
-            {/* <img className={styles.pfp}  >
-              
-            </img>  */}
 
+              <img src='/pfp.png' className={styles.pfp} alt='javascript'/>
               <h1>Hey! I&#39;m Rahul</h1>
               <p>High school student who&#39;s learning about the blockchain.</p>
             </div>
@@ -62,7 +61,7 @@ export default function Index() {
             )}
             {theme === 'Skills' && (
               <Wrapper key="Skills">
-                <Making/>
+                <SkillsInfo/>
               </Wrapper>
             )}
             {theme === 'Contact' && (
