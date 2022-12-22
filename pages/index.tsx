@@ -39,7 +39,7 @@ export default function Index() {
 
               <img src='/pfp.png' className={styles.pfp} alt='javascript'/>
               <h1>Hey! I&#39;m Rahul</h1>
-              <p>High school student who&#39;s learning about the blockchain.</p>
+              <p>High School Student, Full Stack Developer, A MI/AL and Blockchain Enthusiast.</p>
             </div>
 
             <div className={styles.buttons}>
