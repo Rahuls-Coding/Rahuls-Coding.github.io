@@ -31,7 +31,7 @@ export function SkillsInfo() {
           <div className={styles.glass}>
             <div className={styles.alignthings}>
                 <div className={styles.text}>
-                Rahul Rajkumar Résumé
+                Rahul Rajkumar CV
                 </div>
                 <div className={styles.icons}>
                     <LinkButton />
@@ -47,7 +47,7 @@ export function SkillsInfo() {
 function LinkButton () {
   return (
       <a
-      href='/Rahul_Rajkumar_Resume.pdf'
+      href='/Rahul_Rajkumar_CV.pdf'
       target="_blank"
       rel="noopener noreferrer"
       className={styles.linkButton}
