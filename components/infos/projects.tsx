@@ -24,9 +24,7 @@ These are a sample of the projects that I loved working on and learned somthing 
                     <GitHubButton href='shapeMind'/>
                 </div>
             </div>
-            {/* <div className={styles.hidecontent}>
-                Ethereum faucet used to fund ETH for ethereum accounts on the test networks. 
-            </div> */}
+
         </div>
         <div className={styles.glass}>
             <div className={styles.alignthings}>
@@ -37,9 +35,7 @@ These are a sample of the projects that I loved working on and learned somthing 
                     <GitHubButton href='smart-brain-v1'/>
                 </div>
             </div>
-            {/* <div className={styles.hidecontent}>
-                Ethereum faucet used to fund ETH for ethereum accounts on the test networks. 
-            </div> */}
+            
         </div>
         
     </div>
