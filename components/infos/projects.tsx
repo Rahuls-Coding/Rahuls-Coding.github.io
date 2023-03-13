@@ -5,15 +5,23 @@ import { GitHubIcon, LinkIcon } from '../icons/index'
 export function ProjectInfo() {
   return (
     <div className={styles.main}>
-        These are my more popular and bigger projects I've built. But you can see my many other projects at my github account. 
+These are a sample of the projects that I loved working on and learned somthing new during their development.
         <div className={styles.glass}>
             <div className={styles.alignthings}>
                 <div className={styles.text}>
-                    To-Do App ~ Solidity
+                    GeneAI
+                </div>
+                
+            </div>
+            
+        </div>
+        <div className={styles.glass}>
+            <div className={styles.alignthings}>
+                <div className={styles.text}>
+                    ShapeMind
                 </div>
                 <div className={styles.icons}>
-                    <GitHubButton href='to-do-app-solidity'/>
-                    <LinkButton href='to-do-app-solidity'/>
+                    <GitHubButton href='shapeMind'/>
                 </div>
             </div>
             {/* <div className={styles.hidecontent}>
@@ -23,45 +31,17 @@ export function ProjectInfo() {
         <div className={styles.glass}>
             <div className={styles.alignthings}>
                 <div className={styles.text}>
-                    Gamerverse ~ Rust
-                </div>
-                <div className={styles.icons}>
-                    <GitHubButton href='gamerverse-solana-backend'/>
-                    <LinkButton href='gamerverse-new'/>
-                </div>
-            </div>
-            {/* <div className={styles.hidecontent}>
-                Ethereum faucet used to fund ETH for ethereum accounts on the test networks. 
-            </div> */}
-        </div>
-        <div className={styles.glass}>
-            <div className={styles.alignthings}>
-                <div className={styles.text}>
-                    Smart Brain ~ Javascript
+                    Volog
                 </div>
                 <div className={styles.icons}>
                     <GitHubButton href='smart-brain-v1'/>
-                    <InProgress />
                 </div>
             </div>
             {/* <div className={styles.hidecontent}>
                 Ethereum faucet used to fund ETH for ethereum accounts on the test networks. 
             </div> */}
         </div>
-        <div className={styles.glass}>
-            <div className={styles.alignthings}>
-                <div className={styles.text}>
-                    Ethereum Faucet ~ Solidity
-                </div>
-                <div className={styles.icons}>
-                    <GitHubButton href='faucet'/>
-                    <InProgress />
-                </div>
-            </div>
-            {/* <div className={styles.hidecontent}>
-                Ethereum faucet used to fund ETH for ethereum accounts on the test networks. 
-            </div> */}
-        </div>
+        
     </div>
   )
 }
@@ -81,24 +61,3 @@ function GitHubButton({ href }: { href: string }) {
     )
   }
 
-function LinkButton ({href}: {href: string}) {
-    return (
-        <a
-        href={`https://${href}.vercel.app`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.linkButton}
-        >
-            <LinkIcon />
-        </a>
-    )
-}
-
-function InProgress () {
-    // alert("This project is still in progress") 
-    return (
-        <div className={styles.linkButton}>
-            <LinkIcon />
-        </div>
-    )
-}
